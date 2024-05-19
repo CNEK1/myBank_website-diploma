@@ -1,0 +1,97 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+.sidebar {
+  padding: 30px;
+  border-right: 1px solid var(--separator-color);
+  display: flex;
+  flex-direction: column;
+}
+.exit {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Center horizontally */
+  gap: 10px;
+}
+.lowerButtons {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Center horizontally */
+  gap: 10px;
+}
+.addMoney {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Center horizontally */
+  gap: 10px;
+}
+
+.addMoney > Button {
+  display: block; /* Change from flex to block to stack buttons vertically */
+  height: 55px; /* Set a specific height */
+  width: 160px; /* Set a specific width */
+  text-align: center; /* Center the text horizontally */
+  display: flex;
+  align-items: center; /* Center the content vertically */
+  justify-content: center;
+  gap: 5px; /* Center the content horizontally */
+}
+
+/* Ensure the buttons are also displayed in a column */
+.exit > Button {
+  display: block; /* Change from flex to block to stack buttons vertically */
+  height: 55px; /* Set a specific height */
+  width: 160px; /* Set a specific width */
+  text-align: center; /* Center the text horizontally */
+  display: flex;
+  align-items: center; /* Center the content vertically */
+  justify-content: center;
+  gap: 5px; /* Center the content horizontally */
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.link {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+  color: var(--text-color);
+}
+.userlink {
+  color: var(--text-color);
+  text-decoration: none;
+}
+.user {
+  margin-bottom: 46px;
+}
+.link:hover {
+  color: var(--primary-color);
+}
+.active {
+  color: var(--primary-color);
+}
+.name {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.email {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.content {
+  padding: 40px 60px;
+}

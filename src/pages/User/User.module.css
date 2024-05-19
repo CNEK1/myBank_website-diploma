@@ -1,0 +1,65 @@
+/* User.module.css */
+.userPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 60px;
+}
+
+.userInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.leftInfo {
+  text-align: left;
+  margin-right: 20px;
+  width: 200px;
+}
+
+.rightInfo {
+  text-align: right;
+  padding-left: 610px;
+}
+
+.name {
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.email,
+.phoneNumber {
+  font-size: 26px;
+  font-weight: 400;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text-secondaty-color);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.accountBalance {
+  font-size: 100px;
+  font-weight: 700;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.description {
+  font-size: 12px;
+  color: var(--text-secondary-color);
+}
+
+.userAgreement {
+  font-size: 12px;
+  color: var(--text-secondary-color);
+  margin-top: 20px;
+  text-align: center;
+}
