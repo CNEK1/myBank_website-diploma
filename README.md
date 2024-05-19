@@ -27,13 +27,13 @@ Before you begin, ensure you have the necessary prerequisites installed on your 
 
 ### Stripe Payment Integration
 
-- Integrated with Stripe to process payments securely[^1^][8].
+- Integrated with Stripe to process payments securely.
 - Users can add and manage their payment methods.
-- Real-time fraud detection on transactions to prevent fraudulent activities[^2^][2].
+- Real-time fraud detection on transactions to prevent fraudulent activities.
 
 ### Financial News Updates
 
-- Real-time news updates from the world of finance using the News API[^3^][5].
+- Real-time news updates from the world of finance using the News API.
 - Customizable news feed based on user preferences.
 
 ## Fraud Detection
