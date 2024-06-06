@@ -97,7 +97,7 @@ export const transactionCheck = createAsyncThunk(
     newbalanceOrig: number;
   }) => {
     try {
-      const { data } = await axios.post(`http://127.0.0.1:8000/fraud/`, [
+      const { data } = await axios.post(`https://dzherela.com/transactionFraud/`, [
         {
           type: params.type,
           amount: params.amount,

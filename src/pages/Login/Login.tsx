@@ -24,7 +24,7 @@ function Login() {
 
   useEffect(() => {
     if (jwt) {
-      navigate("/");
+      navigate("/user");
     }
   }, [jwt, navigate]);
 
